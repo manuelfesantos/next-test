@@ -68,6 +68,10 @@
     font-style: italic;
 }
 
+body {
+    background-color: #201F1D;
+}
+
 * {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 200;
@@ -79,6 +83,13 @@
 }
 
 :root {
+    --mobile-max-width: 768px;
+    --desktop-min-width: 769px;
     --desktop-header-height: 74.19px;
     --mobile-header-height: 54.69px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
